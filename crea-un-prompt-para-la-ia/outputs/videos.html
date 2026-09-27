@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f5f8f6">
+  <title>Vídeos de natación — Swim&Swim</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+  <script src="videos.js" defer></script>
+</head>
+<body>
+  <div class="padre" id="inicio">
+    <header class="header">
+      <div class="menu">
+        <a class="logo" href="index.html" aria-label="Swim&Swim, inicio"><span class="logo-mark" aria-hidden="true">≈</span>swim<span class="ampersand">&</span>swim</a>
+        <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav"><span></span><span></span></button>
+        <nav class="nav" id="main-nav" aria-label="Navegación principal">
+          <a href="index.html#clases">Clases</a>
+          <a href="index.html#metodo">Cómo funciona</a>
+          <a href="index.html#sobre-nosotros">Sobre nosotros</a>
+        </nav>
+        <a class="social" href="index.html#clases">Todas las clases <span aria-hidden="true">↗</span></a>
+      </div>
+    </header>
+
+    <main class="videos-main">
+      <div class="videos-breadcrumb"><a href="index.html">Inicio</a><span aria-hidden="true">/</span><a href="index.html#clases">Clases</a><span aria-hidden="true">/</span><span id="breadcrumb-topic">Vídeos</span></div>
+      <section class="videos-heading" aria-labelledby="topic-title">
+        <div>
+          <p class="eyebrow"><span class="eyebrow-dot"></span> BIBLIOTECA DE VÍDEOS</p>
+          <h1 id="topic-title">Aprende a tu ritmo.</h1>
+          <p id="topic-description">Elige una lección y practica cada técnica en la piscina.</p>
+        </div>
+        <a class="back-to-classes" href="index.html#clases">← Volver a las clases</a>
+      </section>
+
+      <section class="video-list" aria-label="Vídeos de esta clase">
+        <div class="video-list-heading"><div><h2 id="video-list-title">Lecciones</h2><p>Próximamente podrás ver aquí los vídeos de esta clase.</p></div><span class="video-count" id="video-count"></span></div>
+        <div class="video-grid" id="video-grid"></div>
+      </section>
+
+      <a class="all-classes-link" href="index.html#clases">← Explorar otras clases</a>
+    </main>
+
+    <footer class="footer">
+      <a class="logo footer-logo" href="index.html"><span class="logo-mark" aria-hidden="true">≈</span>swim<span class="ampersand">&</span>swim</a>
+      <p>Aprende a nadar. Disfruta el camino.</p>
+      <nav class="pie" aria-label="Enlaces del pie de página"><a href="index.html#clases">Clases</a><a href="index.html#metodo">Método</a><a href="mailto:hola@swimandswim.com">Contacto</a></nav>
+      <small>© 2026 Swim&Swim. Hecho para disfrutar del agua.</small>
+    </footer>
+  </div>
+</body>
+</html>
