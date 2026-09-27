@@ -2,6 +2,5 @@ services:
   - type: web
     name: swim-and-swim
     runtime: static
-    plan: free
     buildCommand: 'echo "Static HTML site: no build step required"'
     staticPublishPath: .
